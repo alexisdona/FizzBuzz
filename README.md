@@ -1,4 +1,4 @@
-FIZBUZZ
+###### FIZBUZZ
 
 Implementar una versión del juego Fizz-Buzz: A partir de array cuyos elementos son del tipo "Integer", generar un nuevo array del mismo tamaño que el original, pero con elementos del tipo “String” que cumplan las siguiente reglas:
  * Si el número evaluado es divisible por 3, el resultado debe ser “Fizz”
