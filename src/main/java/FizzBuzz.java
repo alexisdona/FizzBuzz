@@ -1,20 +1,7 @@
-public class Juego {
-    // Me instancia un arreglo de enteros de la cantidad que le paso por parámetro
-    public int[] crearArregloInt (int tamanio) {
-        return new int[tamanio];
-    }
+import java.util.ArrayList;
 
-    //Me instancia un arreglo de Strings de la cantidad que le paso por parámetro
-    public String [] crearArregloString (int tamanio) {
-        return new String[tamanio];
-    }
+public class FizzBuzz {
 
-    //Lleno el arreglo de enteros recorriéndolo posición a posición
-    public void llenarArregloDeEnteros(int [] unArreglo) {
-        for(int i=0;i<unArreglo.length;i++) {
-            unArreglo[i] = i+1;
-        }
-    }
     //Método que me evalua si numero1 es divisible por numero2
     public boolean esDivisible(int numero1,int numero2) {
         return (numero1%numero2==0);
